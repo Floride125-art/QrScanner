@@ -25,7 +25,7 @@ class _ScanState extends State<Scan> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Scanner"),
+        title: const Text("Scan QR"),
       ),
       body: Stack(
         children: [

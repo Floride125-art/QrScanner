@@ -26,8 +26,8 @@ class _HomeState extends State<Home> {
           ),
           InkWell(
             onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const Scan()));
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => Scan()));
             },
             child: const Padding(
               padding: EdgeInsets.only(top: 10),
@@ -44,34 +44,6 @@ class _HomeState extends State<Home> {
           ),
         ],
       ),
-    )
-        // Center(
-        //     child:
-        //         Column(
-        //   children: const [
-        //     Padding(
-        //       padding: EdgeInsets.only(top: 300),
-        //       child: Text(
-        //         "Welcome to the QR code scannerApp",
-        //         style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-        //       ),
-        //     ),
-        //     InkWell(
-        //       child:
-        // Padding(
-        //         padding: EdgeInsets.only(top: 10),
-        //         child: Text("Tap here to Scan!",
-        //             style: TextStyle(
-        //               fontSize: 15,
-        //               fontWeight: FontWeight.bold,
-        //               color: Colors.blue,
-        //               decoration: TextDecoration.underline,
-        //             )),
-        //       ),
-        //     ),
-        //   ],
-        // )
-        // )
-        );
+    ));
   }
 }
